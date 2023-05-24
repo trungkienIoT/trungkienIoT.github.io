@@ -1,20 +1,237 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
+
 <head>
-    <meta charset = "UTF-8">
-    <meta name = "viewport" content = "width=device-width, initial-scale=1.8">
-    <link rel="stylesheet" href="style.css">
-    <title>TRUNG_KIEN_SAY_HI</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>TRUNG_KIEN_SAY_HI</title>
 </head>
+
 <body>
-    <!--Hero Section-->
-    <section id="hero">
-        <div class="hero container">
-        <div>
-            <h1>Hello, I'm Trung Kien</h1>
-            <a href="#" type = "button" class =  "cta">Danh mục</a>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1>trungkien<span>IoT</span></h1>
+          </a>
         </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">About</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">CV</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-    </section>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Full Name is <span></span></h1>
+        <h1>Nguyen Trung Kien <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">About <span>Me</span></h1>
+        <p>I'm Kien. I was born in 2003. I am studying Control Engineering and Automation at Ha Noi University of Science and Technology</p>
+        <p>Tôi là Kiên, sinh ra và lớn lên tại Vĩnh Phúc. Hiện tôi đang theo học tại Đại học Bách khoa Hà Nội. Tôi thích bơi, tập Taekwondo và Võ cổ truyền. Tôi đặc biệt yêu thích lĩnh vực Máy tính và Vi điện tử, hiện tại tôi là thành viên nhóm Nhúng - IoT của MANDevices Lab nếu cần người đồng hành trong dự án khoa học kĩ thuật liên quan bạn có thể liên hệ tới chúng tôi. Tôi từng có thành tích thi HSG Lý nên kèm phụ đạo cho các em học sinh về Toán và Vật lý từ năm 2021. </p>
+        
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>THPT Trần Phú</h2>
+          <p>Ngôi trường có truyền thống tại Thành phố Vĩnh Yên - VP</p>
+          <p>Cựu thành viên tuyển Vật Lý</p>
+            <p>-- Lớp trưởng 12B - K72 --</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Đại học Bách khoa </h2>
+          <p>Tự động hóa 04 - K66</p>
+          <p>Nhóm Nhúng - IoT và Ban chiến lược kinh doanh thuộc MANDevices Lab</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Võ thuật</h2>
+          <p>HCB Taekwondo, HCĐ Vovinam - Hội khỏe PĐ Vĩnh Phúc 2020</p>
+          <p>Từng học Võ cổ truyền - Bình Định Gia</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Teach</h2>
+          <p>Giúp các em học sinh trong việc học cơ bản và nâng cao</p>
+          <p>Toán - Vật lý</p>\
+          <p> </p>
+          <p> </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <h2>Line Following Car</h2>
+            <p>Race car tracks track using infrared sensor and MCU 8051, PWM pulse modulation to control DC motor via driver L298N</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 2</h1>
+            <h2>SUN SOUND</h2>
+            <p>Versatile speaker product integrated with solar energy, 20W x4 port room charging power supply, RGB LED color lighting. Using MPPT power point selling algorithm, charging standard, FFT audio spectrum analysis for LED flashing with music. </p>
+            <p>Top 3 in UEB Business Challenge Season 6</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-2.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 3</h1>
+            <h2>Smart Home MAND</h2>
+            <p>Using ESP32-idf, raspberry Pi connects to cloud firebase, controls devices, automatically turns lights on and off, fires alarms, security alerts, detects abnormal human behavior. </p>
+            <p>This project is being continued. </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-3.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 4</h1>
+            <h2>Coding is Love</h2>
+            <p>Will start soon. </p>
+            <p>Maybe about implementing AI on EDGE devices.  </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-4.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 5</h1>
+            <h2>Coding is Love</h2>
+            <p>Will start soon.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-4.jpg" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/img-4.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">My <span>CV</span></h1>
+        <h2>Embedded and IoT Engineer</h2>
+        <p>Update soon</p>
+        <a href="#" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+84 337803070</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>kientdh.hust@gmail.com</h2>
+            <h2>kien.nt210498@sis.hust.edu.vn</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Truong Dinh, Hai Ba Trung, Ha Noi</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>T</span>rung <span>K</span>ien</h1>
+      </div>
+      <h2>------------------------------------------------</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/sau.ich.9" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com/trungkien.iot/" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://zalo.me/0337803070" target="_blank"><img src="./img/iconzl.webp" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://github.com/trungkienIoT" target="_blank"><img src="./img/GitHub-Mark.png" /></a>
+        </div>
+      </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
 </body>
+
 </html>

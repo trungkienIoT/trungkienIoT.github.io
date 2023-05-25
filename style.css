@@ -120,7 +120,7 @@ p {
 	letter-spacing: 0.2rem;
 	text-decoration: none;
 	color: white;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	padding: 20px;
 	display: block;
 }

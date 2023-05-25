@@ -275,7 +275,7 @@ p {
 }
 #services .service-top {
 	max-width: 500px;
-	margin: 0 auto;
+	margin: 0 8px;
 }
 #services .service-top p{
 	margin: 0 8px;

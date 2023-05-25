@@ -275,7 +275,10 @@ p {
 }
 #services .service-top {
 	max-width: 500px;
-	margin: 10 auto auto 10;
+	margin: 0 auto;
+}
+#services .service-top p{
+	margin: 0 8px;
 }
 #services .service-bottom {
 	display: flex;
